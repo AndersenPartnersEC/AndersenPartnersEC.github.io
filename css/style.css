@@ -2395,7 +2395,7 @@ a:focus {
     .hours-text,
     .pricing-text,
     .contact-form {
-      margin-left: -20px;
+      margin-left: -120px;
     }
   }
 
@@ -2575,7 +2575,7 @@ h6,
   .col-md-4 {
     position: relative;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -2689,3 +2689,25 @@ h6,
       max-width: 1140px;
     }
   }
+<<<<<<< HEAD
+=======
+
+  .price-text-left {
+    text-align: left;
+    width: 100%;
+  }
+  .price-text-left p {
+    padding-left: 20px;
+  }
+
+  .price-header {
+      flex: 1;
+  }
+  .price-content {
+      flex: 3;
+  }
+
+  .learn-more-btn {
+      margin-bottom: 20px;
+  }
+>>>>>>> fix service
