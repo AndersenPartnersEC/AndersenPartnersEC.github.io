@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?65f5b363d5303708155639f3428542ce") format("truetype"),
+url("./flaticon.woff?65f5b363d5303708155639f3428542ce") format("woff"),
+url("./flaticon.woff2?65f5b363d5303708155639f3428542ce") format("woff2"),
+url("./flaticon.eot?65f5b363d5303708155639f3428542ce#iefix") format("embedded-opentype"),
+url("./flaticon.svg?65f5b363d5303708155639f3428542ce#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "rating": "\f101",
+    "cv": "\f102",
+    "paper": "\f103",
+    "exam": "\f104",
+    "knowledge": "\f105",
+    "research": "\f106",
+    "grammar": "\f107",
+    "writing": "\f108",
+    "social-media": "\f109",
+    "meeting": "\f10a",
+);
+
+.flaticon-rating:before {
+    content: map-get($flaticon-map, "rating");
+}
+.flaticon-cv:before {
+    content: map-get($flaticon-map, "cv");
+}
+.flaticon-paper:before {
+    content: map-get($flaticon-map, "paper");
+}
+.flaticon-exam:before {
+    content: map-get($flaticon-map, "exam");
+}
+.flaticon-knowledge:before {
+    content: map-get($flaticon-map, "knowledge");
+}
+.flaticon-research:before {
+    content: map-get($flaticon-map, "research");
+}
+.flaticon-grammar:before {
+    content: map-get($flaticon-map, "grammar");
+}
+.flaticon-writing:before {
+    content: map-get($flaticon-map, "writing");
+}
+.flaticon-social-media:before {
+    content: map-get($flaticon-map, "social-media");
+}
+.flaticon-meeting:before {
+    content: map-get($flaticon-map, "meeting");
+}
