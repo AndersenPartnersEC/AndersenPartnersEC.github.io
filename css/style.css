@@ -743,10 +743,10 @@ a:focus {
 .single .single-content {
     position: relative;
     width: 100%;
-    margin: -70px auto 0 auto;
+    margin: -40px auto 0 auto;
     padding: 30px;
     border-radius: 10px;
-    background: #f5f5f5;
+    background: #ffffff;
 }
 
 .about-more .about-content h2,
@@ -1146,14 +1146,14 @@ a:focus {
     color: #ffffff;
 }
 
-.team .team-item:hover .team-text {
+/* .team .team-item:hover .team-text {
     background: #F5F5F5;
 }
 
 .team .team-item:hover .team-text h2 {
     color: #263F5B;
     letter-spacing: 1px;
-}
+} */
 
 .team .team-social {
     position: absolute;
@@ -1177,13 +1177,13 @@ a:focus {
     color: #ffffff;
 }
 
-.team .team-item:hover .team-social a:first-child {
+/* .team .team-item:hover .team-social a:first-child {
     background: #00acee;
     left: 50px;
     transition: .3s 0s;
-}
+} */
 
-.team .team-item:hover .team-social a:nth-child(2) {
+/* .team .team-item:hover .team-social a:nth-child(2) {
     background: #3b5998;
     left: 50px;
     transition: .3s .1s;
@@ -1199,7 +1199,7 @@ a:focus {
     background: #3f729b;
     left: 50px;
     transition: .3s .3s;
-}
+} */
 
 .team .team-overlay {
     position: absolute;
@@ -1216,9 +1216,9 @@ a:focus {
     opacity: 0;
 }
 
-.team .team-item:hover .team-overlay {
+/* .team .team-item:hover .team-overlay {
     opacity: 1;
-}
+} */
 
 .team .team-overlay p {
     margin: 0;
