@@ -277,6 +277,7 @@ a:focus {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: .80;
 }
 
 .carousel .carousel-item::after {
@@ -386,16 +387,16 @@ a:focus {
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #ffffff;
-    background: transparent;
-    border: 2px solid #ffffff;
+    color: #000000;
+    background: #ffffff;
+    border: 2px solid #ffffff00;
     border-radius: 0;
     transition: .3s;
 }
 
 .carousel .carousel-caption .btn:hover {
     color: #263F5B;
-    background: #F5F5F5;
+    background: transparent;
     border-color: #F5F5F5;
 }
 
@@ -573,13 +574,19 @@ a:focus {
     background: #F5F5F5;
 }
 
+.feature .row{
+    margin-top: 10px;
+}
+
 .feature .feature-item {
     min-height: 250px;
     padding: 30px;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: flex-start;
 }
+
+
 
 .feature .feature-icon {
     position: relative;
@@ -587,6 +594,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 
 .feature .feature-icon::before {
@@ -635,6 +643,7 @@ a:focus {
     color: #F5F5F5;
     font-size: 25px;
     font-weight: 600;
+    text-align: center;
 }
 
 .feature .feature-text p {
@@ -642,6 +651,16 @@ a:focus {
     color: #F5F5F5;
     font-size: 18px;
     font-weight: 400;
+    text-align: center;
+}
+
+.feature .feature-text a {
+    margin-top: 5px;
+    margin: auto;
+    color: #008cff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .feature .col-md-12:nth-child(2n) [class^="flaticon-"]::before,
@@ -2626,6 +2645,7 @@ h6,
 }
 
 .subscriber button[type="submit"] {
+    margin-top: 20px;
     width: 200px;
     border: none;
     box-shadow: none;
@@ -3252,4 +3272,53 @@ article h4 h4,
 .btn-primary{
     background-color: #2e4258;
     border-color: #2e4258;
+}
+
+
+.sect-howitworks,.mba-consultation .sect-howitworks,.college-consultation .sect-howitworks{
+    background-color:#efefef;
+    overflow-x:hidden
+}
+.sect-howitworks .list-howitworks,.mba-consultation .sect-howitworks .list-howitworks,.college-consultation .sect-howitworks .list-howitworks{
+    display:inline-block;
+    width:100%;
+    margin:2em auto
+}
+.sect-howitworks .list-howitworks li,.mba-consultation .sect-howitworks .list-howitworks li,.college-consultation .sect-howitworks .list-howitworks li{
+    display:inline-block;
+    width:100%;
+    vertical-align:top;
+    position:relative;
+    margin-bottom:3em
+}
+@media(min-width:54em){
+    .sect-howitworks .list-howitworks li,.mba-consultation .sect-howitworks .list-howitworks li,.college-consultation .sect-howitworks .list-howitworks li{
+        width:24%;
+        margin-bottom:0
+    }
+}
+.sect-howitworks .list-howitworks li:after,.mba-consultation .sect-howitworks .list-howitworks li:after,.college-consultation .sect-howitworks .list-howitworks li:after{
+    content:"\e64b";
+    position:absolute;
+    top:2.4em;
+    right:0;
+    left:0;
+    right:0;
+    color:#f8ce43;
+    font-size:2.75em;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media(min-width:54em){
+    .sect-howitworks .list-howitworks li:after,.mba-consultation .sect-howitworks .list-howitworks li:after,.college-consultation .sect-howitworks .list-howitworks li:after{
+        content:"\e649";
+        top:0;
+        right:-6%;
+        left:auto
+    }
+}
+.sect-howitworks .list-howitworks li:last-child:after,.mba-consultation .sect-howitworks .list-howitworks li:last-child:after,.college-consultation .sect-howitworks .list-howitworks li:last-child:after{
+    content:none
+}
+.sect-howitworks .list-howitworks p,.mba-consultation .sect-howitworks .list-howitworks p,.college-consultation .sect-howitworks .list-howitworks p{
+    font-size:80%
 }
