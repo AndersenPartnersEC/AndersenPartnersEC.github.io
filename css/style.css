@@ -588,7 +588,15 @@ a:focus {
 
 
 
-.feature .feature-icon {
+/* .feature .feature-icon {
+    position: relative;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+} */
+.feature .feature-icon img{
     position: relative;
     width: 60px;
     display: flex;
@@ -597,7 +605,8 @@ a:focus {
     margin: auto;
 }
 
-.feature .feature-icon::before {
+
+/* .feature .feature-icon::before {
     position: absolute;
     content: "";
     width: 80px;
@@ -632,7 +641,7 @@ a:focus {
     font-size: 60px;
     line-height: 60px;
     z-index: 3;
-}
+} */
 
 .feature .feature-text {
     padding-left: 30px;
@@ -813,7 +822,7 @@ a:focus {
     align-items: flex-start;
 }
 
-.fact .fact-icon {
+.fact .fact-icon img{
     position: relative;
     margin: 7px 15px 0 15px;
     width: 60px;
@@ -822,18 +831,7 @@ a:focus {
     justify-content: center;
 }
 
-.fact .fact-icon [class^="flaticon-"]::before {
-    margin: 0;
-    font-size: 60px;
-    line-height: 60px;
-    background-image: linear-gradient(#ffffff, #F5F5F5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-.fact .fact-right .fact-icon [class^="flaticon-"]::before {
-    background-image: linear-gradient(#ffffff, #263F5B);
-}
 
 .fact .fact-left,
 .fact .fact-right {
@@ -3314,25 +3312,8 @@ article h4 h4,
         margin-bottom:0
     }
 }
-.sect-howitworks .list-howitworks li:after,.mba-consultation .sect-howitworks .list-howitworks li:after,.college-consultation .sect-howitworks .list-howitworks li:after{
-    content:"\e64b";
-    position:absolute;
-    top:2.4em;
-    right:0;
-    left:0;
-    right:0;
-    color:#f8ce43;
-    font-size:2.75em;
-    font-family: 'Courier New', Courier, monospace;
-}
-@media(min-width:54em){
-    .sect-howitworks .list-howitworks li:after,.mba-consultation .sect-howitworks .list-howitworks li:after,.college-consultation .sect-howitworks .list-howitworks li:after{
-        content:"\e649";
-        top:0;
-        right:-6%;
-        left:auto
-    }
-}
+
+
 .sect-howitworks .list-howitworks li:last-child:after,.mba-consultation .sect-howitworks .list-howitworks li:last-child:after,.college-consultation .sect-howitworks .list-howitworks li:last-child:after{
     content:none
 }
