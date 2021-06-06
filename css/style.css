@@ -356,6 +356,22 @@ a:focus {
 
 }
 
+@media (max-width: 767.98px) {
+    
+    .carousel .carousel-text span {
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+
+    .carousel .carousel-text span {
+        font-size: 14px;
+    }
+
+}
+
 .carousel .carousel-caption p {
     color: #ffffff;
     font-size: 20px;
