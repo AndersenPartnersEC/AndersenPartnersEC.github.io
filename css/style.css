@@ -3298,36 +3298,6 @@ article h4 h4,
 }
 
 
-.sect-howitworks,.mba-consultation .sect-howitworks,.college-consultation .sect-howitworks{
-    background-color:#efefef;
-    overflow-x:hidden
-}
-.sect-howitworks .list-howitworks,.mba-consultation .sect-howitworks .list-howitworks,.college-consultation .sect-howitworks .list-howitworks{
-    display:inline-block;
-    width:100%;
-    margin:2em auto
-}
-.sect-howitworks .list-howitworks li,.mba-consultation .sect-howitworks .list-howitworks li,.college-consultation .sect-howitworks .list-howitworks li{
-    display:inline-block;
-    width:100%;
-    vertical-align:top;
-    position:relative;
-    margin-bottom:3em
-}
-@media(min-width:54em){
-    .sect-howitworks .list-howitworks li,.mba-consultation .sect-howitworks .list-howitworks li,.college-consultation .sect-howitworks .list-howitworks li{
-        width:24%;
-        margin-bottom:0
-    }
-}
-
-
-.sect-howitworks .list-howitworks li:last-child:after,.mba-consultation .sect-howitworks .list-howitworks li:last-child:after,.college-consultation .sect-howitworks .list-howitworks li:last-child:after{
-    content:none
-}
-.sect-howitworks .list-howitworks p,.mba-consultation .sect-howitworks .list-howitworks p,.college-consultation .sect-howitworks .list-howitworks p{
-    font-size:80%
-}
 
 .dropbtn {
     background-color: #4CAF50;
@@ -3368,3 +3338,69 @@ article h4 h4,
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
+
+  /**********************************/
+/********** Process CSS ***********/
+/**********************************/
+#process {
+    position: relative;
+    padding: 75px 0 45px 0;
+    background: #f7f7f7;
+}
+
+#process .section-header h2{
+    color: #4F84C4;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#process .section-header p{
+    text-align: center;
+}
+
+#process .process-col {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#process .process-col::after {
+    position: absolute;
+    top: 12px;
+    right: -12px;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 45px;
+    color: #dddddd;
+}
+
+#process .col-md-4:last-child .process-col::after {
+    display: none;
+}
+
+#process .process-col i {
+    color: #4F84C4;
+    font-size: 90px;
+    margin-bottom: 15px;
+}
+
+#process .process-col h2 {
+    color: #4F84C4;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#process .process-col p {
+    font-size: 16px;
+    margin: 0;
+}
+
+@media (max-width: 767.98px) {
+    #process .process-col::after {
+        opacity: 0;
+    }
+}
