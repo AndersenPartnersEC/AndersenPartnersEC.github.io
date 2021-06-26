@@ -248,9 +248,11 @@ a:focus {
         box-shadow: none;
     }
     
+    
     .nav-bar .btn {
         display: none;
     }
+
 }
 
 
@@ -3396,6 +3398,9 @@ article h4 h4,
   .dropdown-content a:hover {background-color: #f1f1f1}
   
   .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropdown-menu {
     display: block;
   }
   
