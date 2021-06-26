@@ -555,7 +555,7 @@ a:focus {
 .section-header {
     margin-top: 20px;
     position: relative;
-    width: 100%;
+    width: auto;
     margin-bottom: 45px;
 }
 
@@ -770,6 +770,7 @@ a:focus {
 /********** About CSS **********/
 /*******************************/
 .about {
+    margin-top: 40px;
     position: relative;
     width: 100%;
     padding: 45px 0;
@@ -831,6 +832,9 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
+    .about .section-header {
+        margin-bottom: 10px;
+    }
     .about .about-img {
         margin-bottom: 30px;
         height: auto;
