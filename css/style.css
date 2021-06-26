@@ -248,9 +248,11 @@ a:focus {
         box-shadow: none;
     }
     
+    
     .nav-bar .btn {
         display: none;
     }
+
 }
 
 
@@ -3398,12 +3400,14 @@ article h4 h4,
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .dropdown:hover .dropdown-menu{
+    display: block;
+  }
   
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
 
-<<<<<<< HEAD
   /**********************************/
 /********** Process CSS ***********/
 /**********************************/
@@ -3469,8 +3473,6 @@ article h4 h4,
         opacity: 0;
     }
 }
-=======
   .sect-whatsincluded h2 {
       color: honeydew;
   }
->>>>>>> update

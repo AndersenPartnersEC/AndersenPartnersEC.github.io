@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
     <head>
         <meta charset="utf-8">
         <title>Andersen & Partners Educational Consulting</title>
@@ -27,6 +29,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
 
+
     <body>
         <div class="wrapper">
 
@@ -48,7 +51,7 @@
                                 <a href="team.html" class="nav-item nav-link">Team</a>
                                 <div class="nav-item dropdown">
                                     <!-- <button class="dropbtn">Dropdown</button> -->
-                                    <a href="service.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Service</a>
+                                    <a data-target="service.html"  target="_blank" href="service.html" class="nav-link dropdown-toggle" data-hover="dropdown">Service</a>
                                     <div class="dropdown-menu">
                                         <!-- <a href="service.html" class="dropdown-item">Service</a> -->
                                     <a href="service/premium.html" class="dropdown-item">Premium</a>
@@ -114,19 +117,24 @@
         </div>
         <!-- Process End-->
 
+        <div class="about">
+            </div>
+
+
              
-               <div class="col-md-12">
+              <div class="col-md-12">
                 <div class="contact-form">
+       
                     <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" novalidate="novalidate" target="_self" onsubmit="" action="javascript: postToGoogle()" >
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate" target="_self" onsubmit="return validateForm()" action="https://formspree.io/f/moqylvyj"   method="POST">
                         <div class="control-group">
                             <p>Name</p>
-                            <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                            <input type="text" name="fullname" class="form-control" id="name" placeholder="Your Name" data-validation-required-message="Please enter your name" required>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
                             <p>Email</p>
-                            <input type="text" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your name" />
+                            <input type="text" name="Email" class="form-control" id="email" placeholder="Your Email" data-validation-required-message="Please enter your name" required>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
@@ -136,26 +144,48 @@
                         </div>
                         <div class="control-group">
                             <p>Year of Birth</p>
-                            <input type="text" class="form-control" id="yob" placeholder="Your Email" required="required" data-validation-required-message="Please enter your name" />
+                            <input type="text" name="Year_of_birth" class="form-control" id="yob" placeholder="XXXX-XX-XX" required="required" data-validation-required-message="Please enter your name" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
                             <p>Preferred Overseas Study Destinations</p>
-                            <textarea class="form-control" id="destinations" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <textarea class="form-control" id="destinations" name="destination" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
                             <p>Estimated time to go abroad</p>
-                            <textarea class="form-control" id="time" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <textarea class="form-control" id="time" name="Estimated time" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
+                        <div class="control-group">
+                            <p>Designed subject of study</p>
+                            <textarea class="form-control" id="time" name="Subject" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <p>Any bundle preferences at this point</p>
+                            <textarea class="form-control" id="time" name="Bundle preferences " placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                       
+                        <div class="control-group">
+                            <p>How did you find us?</p>
+                            <textarea class="form-control" id="time" name="Resources " placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+
+
                         <div>
-                            <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                            <input class="btn" type="submit" id="sendMessageButton"></button>
                         </div>
                     </form>
                     
                 </div>
-            </div> 
+           </div>
+
+
+
               <!-- Footer Start -->
              <section class="subscriber">
                 <div class="container">
@@ -252,6 +282,18 @@
             }
             });
     }
+
+       function validateForm() {
+              let x = document.forms["sentMessage"]["fullname"].value;
+              if (x == "") {
+                alert("Name must be filled out");
+                return false;
+              }
+              if(document.forms["sentMessage"]["Email"].value==""){
+                alert("Email must be filled out");
+                return false;
+              }
+            }
         </script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
