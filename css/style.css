@@ -595,7 +595,7 @@ a:focus {
         font-size: 30px;
     }
     .section-header h3 {
-        font-size: 22px;
+        font-size: 45px;
     }
 }
 #university {
@@ -2676,7 +2676,7 @@ article h4 h4,
 
     #process .section-header p{
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
   .sect-whatsincluded h2 {
