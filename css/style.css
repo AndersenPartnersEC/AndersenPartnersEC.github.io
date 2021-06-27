@@ -2306,29 +2306,7 @@ h6,
     list-style: none
 }
 
-.sect-banner .s-row.content-title,
-.sect-content .s-row.content-title {
-    padding-left: 1em;
-    padding-right: 1em
-}
 
-.sect-next a:hover .s-row,
-.sect-next a:hover .content {
-    position: relative;
-    z-index: 2
-}
-
-.sect-big-tabs nav.tab-nav {
-    margin: 0 auto
-}
-
-.sect-big-tabs .tab-intro {
-    padding: 5em 0;
-    border-top: 2px solid #fff;
-    background-color: #fff;
-    position: relative;
-    top: -2px
-}
 
 hr {
     border: solid #ddd;
@@ -2456,6 +2434,20 @@ article h4 h4,
     font-weight: 400
 }
 
+@media (max-width: 600px) {
+    .sect-whatsincluded article p {
+        font-size: 10px;
+    }
+    
+    .sect-whatsincluded article h4 {
+        font-size: 16px;
+    }
+    .sect-whatsincluded article h2 {
+        font-size: 20px;
+    }
+    
+}
+
 @media(min-width:91em) {
     article h4 h4,
     .font-h4 {
@@ -2507,23 +2499,14 @@ article h4 h4,
 }
 
 .s-row {
-    width: 92%;
+    width: 100%;
     max-width: 65em;
     margin-left: auto;
     margin-right: auto
 }
 
 
-@media (max-width: 600px) {
-    .s-row .included-content p {
-        font-size: 13px;
-    }
-    
-    .s-row .included-content h4 {
-        font-size: 20px;
-    }
-    
-}
+
 
 @media(min-width:32em) {
     .s-row included-content
@@ -2679,6 +2662,14 @@ article h4 h4,
 @media (max-width: 767.98px) {
     #process .process-col::after {
         opacity: 0;
+    }
+
+    #process h2 {
+        font-size: 18px;
+    }
+
+    #process p {
+        font-size: ;
     }
 }
   .sect-whatsincluded h2 {
