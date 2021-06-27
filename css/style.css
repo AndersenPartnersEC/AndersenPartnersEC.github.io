@@ -820,6 +820,7 @@ a:focus {
     color: white;
 }
 
+
 .about .about-text a.btn {
     position: relative;
     /* margin-top: 5px; */
@@ -2263,6 +2264,7 @@ a:focus {
     font-weight: 600;
 }
 
+
 .contact .contact-text p {
     margin: 0;
     color: #ffffff;
@@ -2273,9 +2275,11 @@ a:focus {
     margin-bottom: 0;
 }
 
-.contact .contact-form {
+.contact-form {
     position: relative;
-    padding: 0px -15px;
+    padding-top: 50px;
+
+    background-color: #f1f3f3;
     z-index: 1000;
 }
 
@@ -2288,7 +2292,7 @@ a:focus {
     background: transparent;
 }
 
-.contact .contact-form textarea {
+.contact.contact-form textarea {
     color: #ffffff;
     height: 185px;
     border-radius: 0;
@@ -2315,7 +2319,7 @@ a:focus {
   color: #ffffff;
 }
 
-.contact .contact-form .btn {
+.contact-form .btn {
     padding: 16px 30px;
     font-size: 16px;
     font-weight: 600;
@@ -3391,7 +3395,7 @@ article h4 h4,
 /**********************************/
 #process {
     position: relative;
-    padding: 75px 0 45px 0;
+    padding: 45px 0 40px 0;
     background: #f7f7f7;
 }
 
@@ -3486,10 +3490,7 @@ input.input100 {
     line-height: 1.2;
     padding: 0 5px;
 }
-.input100 {
-    outline: none;
-    border: none;
-}
+
 button, input {
     overflow: visible;
 }

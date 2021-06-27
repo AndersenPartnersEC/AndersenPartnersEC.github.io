@@ -119,27 +119,15 @@
 
         <div class="about">
             </div>
-              <div class="col-md-12">
                 <div class="contact-form">
-                    <div id="success"></div>
                     <form name="sentMessage" id="contactForm" novalidate="novalidate" target="_self" onsubmit="return validateForm()" action="https://formspree.io/f/xayabqld"   method="POST">
-                        <div class="control-group">
-
-                            <p>Name</p>
-                            <input type="text" name="fullname" class="form-control input100" id="name" placeholder="Please enter your name" data-validation-required-message="Please enter your name" required>
-                            <span class="focus-input100">
-                            </span>
-                        </div>
-                        <div class="control-group">
-                            <p>Email</p>
+                        <label for="fname">Name</label>
+                            <input type="text" name="fullname" class="form-control" id="name" placeholder="Please enter your name" data-validation-required-message="Please enter your name" required>
+                        <label for="Email">Email</label>
                             <input type="text" name="Email" class="form-control" id="email" placeholder="Your Email" data-validation-required-message="Please enter your name" required>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
-                            <p>Gender</p>
+                            <label for="Gender">Gender</label><br>
                             <label><input name="Gender" type="radio" value="" />Male </label> 
                             <label><input name="Gender" type="radio" value="" />Female </label> 
-                        </div>
                         <div class="control-group">
                             <p>Year of Birth</p>
                             <input type="text" name="Year_of_birth" class="form-control" id="yob" placeholder="XXXX-XX-XX" required="required" data-validation-required-message="Please enter your name" />
@@ -180,7 +168,6 @@
                     </form>
                     
                 </div>
-           </div>
 
 
 
