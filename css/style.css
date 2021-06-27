@@ -2659,19 +2659,19 @@ article h4 h4,
 
 #process .process-col i {
     color: #263F5B;
-    font-size: 90px;
+    font-size: 80px;
     margin-bottom: 15px;
 }
 
 #process .process-col h2 {
     color: #263F5B;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 #process .process-col p {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0;
 }
 
