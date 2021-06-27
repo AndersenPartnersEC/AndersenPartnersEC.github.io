@@ -205,6 +205,10 @@ a:focus {
     border-color: #F5F5F5;
 }
 
+.nav-bar img {
+    height: 3vw;
+}
+
 @media (min-width: 992px) {
     .nav-bar {
         padding: 0 0px;
