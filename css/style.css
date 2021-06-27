@@ -213,6 +213,8 @@ a:focus {
     .nav-bar {
         padding: 0 0px;
     }
+
+
     
     .nav-bar.nav-sticky {
         padding: 0;
@@ -252,7 +254,9 @@ a:focus {
         box-shadow: none;
     }
     
-    
+    .nav-bar img {
+        height: 10vw;
+    }
     .nav-bar .btn {
         display: none;
     }
