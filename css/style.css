@@ -592,6 +592,9 @@ a:focus {
     .section-header h2 {
         font-size: 30px;
     }
+    .section-header h3 {
+        font-size: 22px;
+    }
 }
 #university {
     height: 400px;
@@ -2665,11 +2668,11 @@ article h4 h4,
     }
 
     #process h2 {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     #process p {
-        font-size: ;
+        font-size: 10px;
     }
 }
   .sect-whatsincluded h2 {
