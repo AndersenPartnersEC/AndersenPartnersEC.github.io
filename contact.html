@@ -37,8 +37,7 @@
             <div class="nav-bar">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <img src="img/logo.png">
-                        <a href="index.html" class="navbar-brand">Andersen & Partners</a>
+                        <a href="#" class="navbar-brand">MENU</a>
                         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -124,10 +123,11 @@
                 <div class="contact-form">
                     <div id="success"></div>
                     <form name="sentMessage" id="contactForm" novalidate="novalidate" target="_self" onsubmit="return validateForm()" action="https://formspree.io/f/moqylvyj"   method="POST">
-                        <div class="control-group">
+                        <div class="control-group wrap-input100 validate-input">
                             <p>Name</p>
-                            <input type="text" name="fullname" class="form-control" id="name" placeholder="Your Name" data-validation-required-message="Please enter your name" required>
-                            <p class="help-block text-danger"></p>
+                            <input type="text" name="fullname" class="form-control input100" id="name" placeholder="Please enter your name" data-validation-required-message="Please enter your name" required>
+                            <span class="focus-input100">
+                            </span>
                         </div>
                         <div class="control-group">
                             <p>Email</p>
