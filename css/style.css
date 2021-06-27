@@ -1502,11 +1502,8 @@ a:focus {
 }
 
 .contact-form {
-    position: relative;
-    padding-top: 50px;
-
+   position: relative;
     background-color: #f1f3f3;
-    z-index: 1000;
 }
 
 .contact .contact-form input {
@@ -2139,7 +2136,7 @@ h6,
   @media (min-width: 768px) {
     .contact-form {
       max-width: 700px;
-      margin: -150px auto 15px auto;
+      margin: 15px auto 15px auto;
       padding: 30px;
     }
   }

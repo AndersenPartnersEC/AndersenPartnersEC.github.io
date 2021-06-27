@@ -56,7 +56,7 @@
                                     <div class="dropdown-menu">
                                         <!-- <a href="service.html" class="dropdown-item">Service</a> -->
                                     <a href="service/premium.html" class="dropdown-item">Premium</a>
-                                    <a href="service/superior-premium.html" class="dropdown-item">superior-premium</a>
+                                    <a href="service/superior-premium.html" class="dropdown-item">Superior-Premium</a>
                                     </div>
                                   </div>
                                 <a href="careers.html" class="nav-item nav-link">Careers</a>
@@ -118,17 +118,17 @@
         </div>
         <!-- Process End-->
 
-        <div class="about">
-            </div>
+  
                 <div class="contact-form">
                     <form name="sentMessage" id="contactForm" novalidate="novalidate" target="_self" onsubmit="return validateForm()" action="https://formspree.io/f/xayabqld"   method="POST">
                         <label for="fname">Name</label>
-                            <input type="text" name="fullname" class="form-control" id="name" placeholder="Please enter your name" data-validation-required-message="Please enter your name" required>
+                            <input type="text" name="fullname" class="form-control" id="name" placeholder="Please enter your name" data-validation-required-message="Please enter your name" required><br>
                         <label for="Email">Email</label>
-                            <input type="text" name="Email" class="form-control" id="email" placeholder="Your Email" data-validation-required-message="Please enter your name" required>
+                            <input type="text" name="Email" class="form-control" id="email" placeholder="Your Email" data-validation-required-message="Please enter your email" required><br>
                             <label for="Gender">Gender</label><br>
                             <label><input name="Gender" type="radio" value="" />Male </label> 
                             <label><input name="Gender" type="radio" value="" />Female </label> 
+                            <br>
                         <div class="control-group">
                             <p>Year of Birth</p>
                             <input type="text" name="Year_of_birth" class="form-control" id="yob" placeholder="XXXX-XX-XX" required="required" data-validation-required-message="Please enter your name" />
@@ -140,20 +140,21 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <p>Estimated time to go abroad</p>
-                            <textarea class="form-control" id="time" name="Estimated time" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="control-group">
                             <p>Designed subject of study</p>
                             <textarea class="form-control" id="time" name="Subject" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
+                            <p>Estimated time to go abroad</p>
+                            <textarea class="form-control" id="time" name="Estimated time" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
                             <p>Any bundle preferences at this point</p>
                             <label><input name="bundle" type="radio" value="" />Premium </label> 
-                            <label><input name="bundle" type="radio" value="" />Superior-premium </label> 
+                            <label><input name="bundle" type="radio" value="" />Superior-Premium </label> 
                         </div>
+
                        
                         <div class="control-group">
                             <p>How did you find us?</p>
@@ -161,10 +162,16 @@
                             <p class="help-block text-danger"></p>
                         </div>
 
-
+                        <label for="Wechat_id">Wechat ID</label>
+                        
+                        <input type="text" name="fullname" class="form-control" id="name" placeholder="Wechat"  ><br>
+                       
+                        <label for="Graduate">Where do you graduate</label>
+                        
+                        <input type="text" name="fullname" class="form-control" id="name" placeholder="Message" ><br>
 
                         <div>
-                            <button class="btn" type="submit" id="sendMessageButton">Submit</button>
+                            <button class="btn" type="submit" id="sendMessageButton">Submit</button> <br>
                         </div>
                     </form>
                     
