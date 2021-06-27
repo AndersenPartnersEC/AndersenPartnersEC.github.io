@@ -2621,6 +2621,7 @@ article h4 h4,
 
 #process .section-header p{
     text-align: center;
+    font-size: 20px;
 }
 
 #process .process-col {
@@ -2671,8 +2672,9 @@ article h4 h4,
         font-size: 15px;
     }
 
-    #process p {
-        font-size: 10px;
+    #process .section-header p{
+        text-align: center;
+        font-size: 12px;
     }
 }
   .sect-whatsincluded h2 {
