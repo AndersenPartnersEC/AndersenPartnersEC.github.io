@@ -818,7 +818,7 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 17px;
+    font-size: 22px;
 }
 .about .about-text span {
     font-size: 18px;
@@ -1502,8 +1502,9 @@ a:focus {
 }
 
 .contact-form {
-   position: relative;
+    position: relative;
     background-color: #f1f3f3;
+    /* z-index: 1000; */
 }
 
 .contact .contact-form input {
