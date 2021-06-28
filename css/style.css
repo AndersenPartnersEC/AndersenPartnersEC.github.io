@@ -708,7 +708,8 @@ a:focus {
 
 
 .feature .feature-text {
-    padding-left: 30px;
+
+    margin: auto;
 }
 
 .feature .feature-text h3 {
@@ -2002,7 +2003,13 @@ h6,
     padding-right: 15px;
     padding-left: 15px;
   }
-
+  .col-md-2 {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
