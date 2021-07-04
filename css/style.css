@@ -4,7 +4,7 @@
 body {
     color: #666666;
     background: #ffffff;
-    /* font-family:  'Microsoft YaHei','futura',tahoma,\5b8b\4f53,sans-serif; */
+    /* font-family:  'Microsoft YaHei','avenir',tahoma,\5b8b\4f53,sans-serif; */
     font-family: avenir, 'avenir next', helvetica, arial, sans-serif;
     font-weight: 400;
 }
@@ -2382,7 +2382,7 @@ hr.sep.sep-alpha {
 }
 
 inlcuded-content p{
-    font-family: "adelle", georgia, times, serif
+    font-family: avenir, "adelle", georgia, times, serif
 }
 
 .sect-whatsincluded {
