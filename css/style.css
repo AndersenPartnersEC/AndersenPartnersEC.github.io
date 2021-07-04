@@ -4,8 +4,8 @@
 body {
     color: #666666;
     background: #ffffff;
-    /* font-family:  'Microsoft YaHei','avenir',tahoma,\5b8b\4f53; */
-    font-family: 'avenir', 'avenir next', helvetica, arial;
+    /* font-family:  'Microsoft YaHei','avenir', helvetica, verdana, tahoma,\5b8b\4f53; */
+    font-family: 'avenir', 'avenir next', helvetica, verdana;
     font-weight: 400;
 }
 
