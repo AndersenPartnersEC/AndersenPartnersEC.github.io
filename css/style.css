@@ -4,8 +4,8 @@
 body {
     color: #666666;
     background: #ffffff;
-    /* font-family:  'Microsoft YaHei','times new roman',tahoma,\5b8b\4f53,sans-serif; */
-    font-family: 'times new roman',tahoma,\5b8b\4f53,sans-serif;
+    /* font-family:  'Microsoft YaHei','futura','times new roman',tahoma,\5b8b\4f53,sans-serif; */
+    font-family: futura, 'times new roman',tahoma,\5b8b\4f53,sans-serif;
     font-weight: 400;
 }
 
