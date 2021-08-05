@@ -9,6 +9,20 @@ body {
     font-weight: 400;
 }
 
+#uni-img {
+	 text-align: right;
+}
+
+#journey-img {
+	width: 100%;
+	text-align: right;
+}
+
+.new-logo{
+    height: 72px;
+    filter: brightness(0) invert(1);
+}
+
 h1,
 h2, 
 h3, 
@@ -205,9 +219,6 @@ a:focus {
     border-color: #F5F5F5;
 }
 
-.nav-bar img {
-    height: 3vw;
-}
 
 @media (min-width: 992px) {
     .nav-bar {
@@ -370,6 +381,25 @@ a:focus {
     .carousel .carousel-text span {
         font-size: 16px;
     }
+	
+	#uni-img {
+	 text-align: center;
+	 margin-top: 32px;
+	}
+	
+	#journey-img {
+		text-align: center;
+	}
+	
+	#university{
+		margin-bottom: 32px;
+		height: 445px !important;
+		margin: 0 15px 0 15px;
+	}
+	
+	#img-res {
+		margin-left: 50px;
+	}
     
 }
 
@@ -576,7 +606,6 @@ a:focus {
 }
 
 .section-header h2 {
-    margin: 0;
     position: relative;
     font-size: 40px;
     font-weight: 700;
@@ -585,7 +614,7 @@ a:focus {
 .section-header h3 {
     margin: 0;
     position: relative;
-    font-size: 58px;
+    font-size: 40px;
     font-weight: 700;
     color: white;
 }
@@ -806,7 +835,7 @@ a:focus {
 }
 
 .about .about-img img {
-    width: 100%;
+    width: 78%;
     height: 100%;
     max-height: 400px;
     border-radius: 10px;
@@ -819,10 +848,10 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 22px;
+    font-size: 19px;
 }
 .about .about-text span {
-    font-size: 18px;
+    font-size: 19px;
     color: white;
 }
 
@@ -853,12 +882,19 @@ a:focus {
         margin-bottom: 30px;
         height: auto;
     }
+    .about .about-text p {
+        font-size: 16px;
+    }
     .about .about-text span {
-        font-size: 14px;
+        font-size: 16px;
     }
     .about .about-text h3 {
         font-size: 15px;
     }
+	
+	.about .about-img img {
+		width: 85%;
+	}
 }
 
 .about-more,
@@ -1006,6 +1042,9 @@ a:focus {
     .service {
         padding: 45px 60px 15px 60px;
     }
+}
+.learn-more-btn-2{
+    margin-top: 31px;
 }
 
 .service .service-item {
@@ -1183,7 +1222,35 @@ a:focus {
     opacity: 1;
 }
 
-
+@media screen and (min-width: 1330px) {
+    #img-res {
+		margin-left: 100px;
+		width: 100%;
+	}
+	
+	#jour-img {
+		width: 100%;
+	}
+	
+	#journey {
+		max-width: 40%;
+		margin-left: auto;
+	}
+	
+	#unique-exp {
+		max-width: 50%;
+		margin-left: auto;
+	}
+}
+/***************/
+/******paragraph-class**/
+/******same class was used for the heading*********
+.paragraph-1{
+    margin-left: 100px;
+}**/
+@media screen and (min-width: 1330px) {
+    .paragraph-1{margin-left: 100px;}
+}
 /*******************************/
 /*********** Team CSS **********/
 /*******************************/
