@@ -1222,6 +1222,25 @@ a:focus {
 }
 
 @media screen and (min-width: 1330px) {
+
+    .footer-contact {
+        margin-left: 10px;
+        font-size: 0.9rem !important;
+    }
+
+    #qrcode_text {
+        padding-left: 22px;
+    }
+
+    .footer-link {
+        padding-left: 80px;
+    }
+
+    .qrcode {
+        position: absolute;
+        right: 115px;
+    }
+
     #img-res {
 		margin-left: 100px;
 		width: 100%;

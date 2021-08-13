@@ -9,6 +9,7 @@ body {
     font-weight: 400;
 }
 
+
 #uni-img {
 	 text-align: right;
 }
@@ -1223,6 +1224,21 @@ a:focus {
 }
 
 @media screen and (min-width: 1330px) {
+
+    .footer-contact {
+        margin-left: 10px;
+        font-size: 0.9rem !important;
+    }
+
+    .footer-link {
+        padding-left: 80px;
+    }
+
+    .qrcode {
+        position: absolute;
+        right: 115px;
+    }
+
     #img-res {
 		margin-left: 100px;
 		width: 100%;
